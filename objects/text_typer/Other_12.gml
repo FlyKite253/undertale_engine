@@ -560,4 +560,8 @@ switch(cmd[|0]){
 			_skip_space=cmd[|1];
 		}
 		break;
+		
+	case "emotion":
+		battle_enemy_ink_p1._head_image=cmd[|1];
+		break;
 }
