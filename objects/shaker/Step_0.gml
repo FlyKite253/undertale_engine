@@ -1,3 +1,8 @@
+if(delay > 0){
+	delay -= 1;
+}
+else{
+
 if(object_exists(target) && instance_exists(target)){
 	var obj=target;
 	target=instance_find(obj,0);
@@ -42,4 +47,5 @@ if(instance_exists(target) && !object_exists(target) && variable_instance_exists
 	variable_instance_set(target,var_name,_shake_base+_shake_pos);
 }else{
 	instance_destroy();
+}
 }

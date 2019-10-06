@@ -8,3 +8,5 @@ _shake_base=undefined;
 _shake_pos=0;
 _shake_time=0;
 _shake_positive=true;
+
+delay = 0

@@ -13,7 +13,8 @@
         "8b5856fb-b014-4fe8-8311-bb8cf2e0fc31",
         "c325d165-7cbc-4335-b9ae-1965b700a7c3",
         "19d5a14d-4399-4c43-b5d9-47975392bb2b",
-        "e59c9d69-8508-4725-addd-93fc346c80bd"
+        "e59c9d69-8508-4725-addd-93fc346c80bd",
+        "83f3bcdd-8470-44e5-abf7-fa4862a58d9a"
     ],
     "filterType": "GMScript",
     "folderName": "Macro",

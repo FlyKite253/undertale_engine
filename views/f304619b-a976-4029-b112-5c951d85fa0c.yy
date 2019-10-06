@@ -15,7 +15,9 @@
         "0f3caf18-d197-4138-9087-9b7ffcd50bbb",
         "de8ed562-d856-4441-868f-475ed1d354dd",
         "4cd3a228-c8f7-420c-9903-6879c58007c7",
-        "6733419b-e3bb-4766-bfa7-3ce71c8c77a6"
+        "6733419b-e3bb-4766-bfa7-3ce71c8c77a6",
+        "3d22b63a-c9f2-46f0-b58b-fad214967ab2",
+        "35d639f0-d113-40fb-8244-bd9fafae4a9f"
     ],
     "filterType": "GMScript",
     "folderName": "Battle",
