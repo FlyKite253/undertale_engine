@@ -16,4 +16,4 @@ a._body_init_y = -20
 a._head_init_y = -29
 
 image_index = 1
-Anim_Create(id,"vspeed",0,0,-5,15,20)
+Anim_Create(id,"vspeed",0,0,-5,20,20)

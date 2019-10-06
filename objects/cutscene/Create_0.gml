@@ -6,3 +6,5 @@ fader.alpha=1;
 Fader_Fade(1,0,30);
 
 alarm[0]=1;
+
+Encounter_Start(1,false)
