@@ -1,7 +1,5 @@
-siner = 0
-
-glitch_image = 0
-
+/// @description Insert description here
+// You can write your code in this editor
 rdmx = random(60)
 rdmy = random(100)
 

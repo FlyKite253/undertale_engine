@@ -10,9 +10,9 @@ legs_height = sprite_get_height(_legs_sprite)
 
 head_glitch_x = random(head_width);
 head_glitch_y = random(head_height);
-head_glitch_x = random(head_width);
-head_glitch_y = random(head_height);
 legs_glitch_x = random(legs_width)
 legs_glitch_y = random(legs_height)
+body_glitch_x = random(body_width)
+body_glitch_y = random(body_height)
 
 alarm[0] = 45
