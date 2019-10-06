@@ -3,7 +3,7 @@ if!(sprite_index = spr_gb_fell){
 	color = c_white;
 }
 else{
-	make_color_rgb(185,59,60)
+	color = make_color_rgb(185,59,60);
 }
 if(type==1){
 	color=make_color_rgb(20,169,255);
