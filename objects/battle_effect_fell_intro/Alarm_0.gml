@@ -17,3 +17,5 @@ a._head_init_y = -29
 
 image_index = 1
 Anim_Create(id,"vspeed",0,0,-5,20,20)
+
+audio_play_sound(snd_ding,0,0)

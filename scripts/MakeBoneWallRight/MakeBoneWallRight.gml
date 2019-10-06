@@ -9,7 +9,7 @@ var ii = 0;
 var b=0;
 for(i=0;i<battle_board.up+battle_board.down+11;i+=11){
 	ii += 1;
-	b[ii] = MakeBoneH(battle_board.x+battle_board.right+LENGTH/2+5,battle_board.y-battle_board.up+i,LENGTH,0,0,BONE.WHITE,0,0,0,100+PAUSE*2);
+	b[ii] = MakeBoneH(battle_board.x+battle_board.right+LENGTH/2+5,battle_board.y-battle_board.up+i,LENGTH,0,0,BONE.WHITE,0,0,0,PAUSE+8+DURATION);
 	with(b[ii]){
 		Anim_Create(id,"x",0,0,x,-LENGTH,8,PAUSE);
 		Anim_Create(id,"x",0,0,x-LENGTH,LENGTH*2,16,16+PAUSE+DURATION);
