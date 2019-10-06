@@ -5,3 +5,6 @@ repeat(_input_number){
 	proc+=1;
 }
 ds_list_destroy(_input_list);
+
+game_set_speed(_fast_fps,gamespeed_fps);
+Game_SetFrameSkip(0);

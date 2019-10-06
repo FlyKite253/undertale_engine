@@ -20,3 +20,5 @@ if(buffer_get_size(_buffer)>0){
 }else{
 	instance_destroy();
 }
+
+_fast_fps=game_get_speed(gamespeed_fps);
