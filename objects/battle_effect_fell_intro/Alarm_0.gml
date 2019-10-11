@@ -19,3 +19,6 @@ image_index = 1
 Anim_Create(id,"vspeed",0,0,-5,20,20)
 
 audio_play_sound(snd_ding,0,0)
+
+alarm[1] = 630
+alarm[2] = 300

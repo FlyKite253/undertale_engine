@@ -839,14 +839,6 @@
             }
         },
         {
-            "Key": "2015d9b9-470a-472c-b924-89af4328a6ad",
-            "Value": {
-                "id": "a366fa2e-62e4-4b90-bbfa-d330992ebf45",
-                "resourcePath": "objects\\battle_effect_fell_outro\\battle_effect_fell_outro.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "2043a6a6-887d-49ae-9fcd-cdb524fa33c8",
             "Value": {
                 "id": "7b060323-b99b-4c2f-808d-c5a42ad9220b",
@@ -5740,14 +5732,6 @@
                 "id": "bc601b15-0e17-4b81-8561-9fbac87e7923",
                 "resourcePath": "views\\f7b99f1d-4d3a-481f-ae8f-af017ea8e294.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "f7b9c13a-5d21-41d3-bc95-5d1b2a821f6c",
-            "Value": {
-                "id": "0ea21d5e-4b8d-4614-80d0-0fca5eeede7a",
-                "resourcePath": "sprites\\spr_fell_effect_outro\\spr_fell_effect_outro.yy",
-                "resourceType": "GMSprite"
             }
         },
         {

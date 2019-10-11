@@ -9,10 +9,8 @@ if(start = 1){
 	}
 	if(time = 80){
 		alarm[0] = 1;
-		a = MakeBoneV(-20,306,180,0,0,BONE.ORANGE,1,4,0);
+		a = MakeBoneH(900,306,180,0,0,BONE.BLUE,1,4,0);
 		with(a)Anim_Create(id,"x",ANIM_TWEEN.SINE,ANIM_EASE.OUT,x,320-x,20);
-		b = MakeBoneH(900,306,180,0,0,BONE.BLUE,1,4,0);
-		with(b)Anim_Create(id,"x",ANIM_TWEEN.SINE,ANIM_EASE.OUT,x,320-x,20);
 		MakeBoneWallBottom(20,5,500);
 		MakeBoneWallTop(20,5,500);
 		MakeBoneWallLeft(20,5,500);
@@ -20,10 +18,12 @@ if(start = 1){
 	}
 	if(time = 600){
 		with(a)hspeed = 10;
-		with(b)hspeed = -10;
 		alarm[0] = -1;
 	}
-	if(time = 650){
-		instance_create_depth(320,240,-2,battle_effect_fell_outro);
+	if(time = 630){
+		battle_enemy_ink.action = 3;
+		battle_enemy_ink._action_step = 0;
+		battle_enemy_ink.alarm[0] = 25;
+		with(battle_effect_fell_intro)Anim_Create(id,"vspeed",0,0,vspeed,-20-vspeed,20);
 	}
 }
