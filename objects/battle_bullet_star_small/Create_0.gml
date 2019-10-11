@@ -2,5 +2,6 @@
 // You can write your code in this editor
 depth=DEPTH_BATTLE.BULLET_OUTSIDE_HIGH;
 
-image_xscale = 0.1
-image_yscale = 0.1
+a=choose(random_range(-6,-3),random_range(3,6))
+image_xscale=0.25
+image_yscale=0.25

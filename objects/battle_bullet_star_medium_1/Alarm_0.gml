@@ -1,5 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-Anim_Create(id,"x",ANIM_TWEEN.QUAD,ANIM_EASE.OUT,x,idealx-x,15)
-Anim_Create(id,"y",ANIM_TWEEN.QUAD,ANIM_EASE.OUT,y,320-y,15)
-alarm[1] = 15
+dir=direction-20
+repeat(4){
+  mk=instance_create_depth(x,y,0,battle_bullet_star_small)
+  mk.direction=dir
+  mk.speed=4
+  mk.gravity=-0.125
+   mk.gravity_direction=point_direction(x,y,xjz,yjz)-180
+  dir+=20
+  instance_destroy()
+}

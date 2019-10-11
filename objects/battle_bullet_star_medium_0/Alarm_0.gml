@@ -1,7 +1,12 @@
 /// @description Insert description here
 // You can write your code in this editor
-a = instance_create_depth(x,y,0,battle_bullet_star_medium_1)
-a.idealx = 40
-a = instance_create_depth(x,y,0,battle_bullet_star_medium_1)
-a.idealx = 600
+d=random(360)
+repeat(6){
+  m=instance_create_depth(x,y,0,battle_bullet_star_medium_1)
+  m.direction=d
+  m.speed=4
+  m.xjz=x
+  m.yjz=y
+  d+=60
+}
 instance_destroy()

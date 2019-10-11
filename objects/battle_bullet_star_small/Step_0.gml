@@ -4,4 +4,4 @@
 // Inherit the parent event
 event_inherited();
 
-image_angle += 7.5
+image_angle+=a
