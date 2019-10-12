@@ -2,7 +2,7 @@
 // You can write your code in this editor
 draw_self()
 
-if aa<1{
+if aa<0.5{
   aa+=0.05
   image_xscale+=0.05
   image_yscale+=0.05

@@ -3,8 +3,8 @@
 if(start = 1){
 	time += 1;
 	if(time = 1){
-		Anim_Create(battle_enemy_ink_p1,"x",2,1,battle_enemy_ink.x,130,20);
-		Anim_Create(battle_enemy_ink_p1,"x",2,2,battle_enemy_ink.x+130,-130,20,700);
+		Anim_Create(battle_enemy_ink_p1,"x",2,1,battle_enemy_ink.x,150,20);
+		Anim_Create(battle_enemy_ink_p1,"x",2,2,battle_enemy_ink.x+150,-150,20,700);
 	}
 	if(time = 20){
 		instance_create_depth(320,30,0,battle_effect_fresh_intro_0);

@@ -6,7 +6,7 @@ repeat(4){
   mk.direction=dir
   mk.speed=4
   mk.gravity=-0.125
-   mk.gravity_direction=point_direction(x,y,xjz,yjz)-180
+  mk.gravity_direction=point_direction(x,y,xjz,yjz)-180
   dir+=20
   instance_destroy()
 }

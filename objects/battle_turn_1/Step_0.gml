@@ -17,7 +17,6 @@ if(start = 1){
 		Battle_SetBoardSize(65,65,200,200,20);
 	}
 	if(time = 150){
-		var RDM = random(360);
 		MakeBoneV(0,320,120,1.5,0,BONE.WHITE,0,-3,1,1);
 		MakeBoneH(0,320,120,1.5,0,BONE.WHITE,0,-3,1,1);
 	}
@@ -31,7 +30,6 @@ if(start = 1){
 		MakeBoneTwoV(550,random_range(290,350),-2.5,25,1);
 	}
 	if(time = 250){
-		var RDM = random(360);
 		MakeBoneV(0,320,120,1.5,0,BONE.WHITE,0,-3,1,1);
 		MakeBoneH(0,320,120,1.5,0,BONE.WHITE,0,-3,1,1);
 	}
