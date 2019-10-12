@@ -5,7 +5,7 @@ y = (((battle_board.y - battle_board.up) - battle_board.thickness_frame) - 4)
 
 siner += 1
 draw_sprite_ext(spr_swap_cape,0,x,y-126+sin(siner/14)*2,2,2,0,c_white,1)
-draw_sprite_ext(spr_swap_leg,0,x,y,2,2,0,c_white,1)
+draw_sprite_ext(spr_swap_legs,0,x,y,2,2,0,c_white,1)
 draw_sprite_ext(spr_swap_arm_right,0,x-28,y-106+sin(siner/14)*2,2,2,0,c_white,1)
 draw_sprite_ext(spr_swap_arm_left,0,x+28,y-106+sin(siner/14)*2,2,2,-sin(siner/14)*3,c_white,1)
 draw_sprite_ext(spr_swap_body,0,x,y-120+sin(siner/14)*2,2,2,0,c_white,1)

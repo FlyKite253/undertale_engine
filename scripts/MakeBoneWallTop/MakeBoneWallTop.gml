@@ -6,10 +6,9 @@ var LENGTH = argument[1];
 var DURATION = argument[2];
 
 var ii = 0;
-var b=0;
 for(i=-3;i<battle_board.left+battle_board.right+11;i+=11){
 	ii += 1;
-	b[ii] = MakeBoneV(battle_board.x-battle_board.left+i,battle_board.y-battle_board.up-LENGTH/2-5,LENGTH,0,0,BONE.WHITE,0,0,0,PAUSE+8+DURATION);
+	b[ii] = MakeBoneV(battle_board.x-battle_board.left+i,battle_board.y-battle_board.up-LENGTH/2-5,LENGTH,0,0,BONE.WHITE,0,0,0,1,DURATION+PAUSE*2);
 	with(b[ii]){
 		Anim_Create(id,"y",0,0,y,LENGTH,8,PAUSE);
 		Anim_Create(id,"y",0,0,y+LENGTH,-LENGTH*2,16,16+PAUSE+DURATION);
@@ -23,7 +22,7 @@ for(i=-3;i<battle_board.left+battle_board.right+11;i+=11){
 		a.delay = PAUSE + 8;
 	}
 }
-var a = instance_create_depth(0,0,0,battle_bone_stab_alert);
+a = instance_create_depth(0,0,0,battle_bone_stab_alert);
 a.duration = PAUSE;
 a.x1 = battle_board.x-battle_board.left+1;
 a.y1 = battle_board.y-battle_board.up+LENGTH-1;

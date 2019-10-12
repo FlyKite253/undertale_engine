@@ -11,3 +11,5 @@ vspeed = 0
 hspeed = 0
 duration = -1
 alarm[0] = 1
+
+bottom = 1

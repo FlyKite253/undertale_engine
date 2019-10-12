@@ -1,5 +1,5 @@
 {
-    "id": "706bade8-bf04-4f79-917a-17548759f7dd",
+    "id": "5000921a-b00c-408a-8a63-72ac15c32298",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "MakeBoneWallTop",

@@ -1,5 +1,5 @@
 {
-    "id": "27a2f921-4a22-4aa0-8eea-80e9ee063a41",
+    "id": "e06d6bde-100d-4f15-8811-4c6156f9e59b",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "MakeBoneRight",

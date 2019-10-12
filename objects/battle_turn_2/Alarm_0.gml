@@ -18,4 +18,4 @@ MakeGB(x_start2,y_start2,x_target2,y_target2,angle2-180,angle2,1,2,0,30,18,spr_g
 _dir+=8;
 _dir2+=8;
 
-alarm[0]=10;
+alarm[0]=9;

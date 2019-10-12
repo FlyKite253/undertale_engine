@@ -20,7 +20,7 @@ _head_image = 0
 _head_sprite = spr_sans_head
 _body_sprite = spr_sans_body
 _body_sprite_original = spr_sans_body
-_legs_sprite = spr_sans_leg
+_legs_sprite = spr_sans_legs
 
 _body_sprite_down = noone
 _body_sprite_up = noone

@@ -3,7 +3,7 @@
 a = instance_create_depth(x,y,0,battle_agent_sans)
 a._head_sprite = spr_sans_head
 a._body_sprite = spr_sans_body
-a._legs_sprite = spr_sans_leg
+a._legs_sprite = spr_sans_legs
 a._body_sprite_down = noone
 a._body_sprite_up = noone
 a._body_sprite_left = noone

@@ -7,7 +7,9 @@
         "89ce027e-605d-4e8c-894a-532d064860c7",
         "4159944c-58e5-499b-ae6f-49bffa98e0bc",
         "eb8565d5-efc9-4e41-b348-bb80c824e59c",
-        "06ca550d-1448-458d-b1cc-38aae34c84b4"
+        "06ca550d-1448-458d-b1cc-38aae34c84b4",
+        "a1af102d-7b98-4d90-97ab-c8fffc2732ff",
+        "e8113de5-97c1-465d-8990-5f0e2caa3270"
     ],
     "filterType": "GMSprite",
     "folderName": "Soul",

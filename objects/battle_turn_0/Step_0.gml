@@ -2,9 +2,9 @@ var width = sprite_get_height(spr_gb);
 if(start = 1){
 	time += 1;
 	if(time = 1){
-		Anim_Create(31,"x",2,1,battle_enemy_ink.x,-180,20);
-		Anim_Create(31,"x",2,2,battle_enemy_ink.x-180,180,20,580);
-		instance_create_depth(320,230,0,battle_bullet_star_medium_0);
+		Anim_Create(battle_enemy_ink_p1,"x",2,1,battle_enemy_ink.x,-180,20);
+		Anim_Create(battle_enemy_ink_p1,"x",2,2,battle_enemy_ink.x-180,180,20,580);
+		instance_create_depth(320,200,0,battle_bullet_star_medium_0);
 	}
 	if(time = 100){
 		instance_create_depth(320,170,0,battle_effect_sans_intro);
@@ -49,7 +49,7 @@ if(start = 1){
 	}
 	if(time = 350){
 		MakeGB((320-(width*2)),0,(320-(width*2)),200,-90,-90,2,2,0,15,18,spr_gb);
-		MakeGB((320+(width*6)),0,(320+(width*2)),200,-90,-90,2,2,0,15,18,spr_gb);
+		MakeGB((320+(width*6)),0,(320+(width*6)),200,-90,-90,2,2,0,15,18,spr_gb);
 	}
 	if(time = 375){
 		MakeGB((320-width),0,(320-width),200,-90,-90,2,2,0,15,18,spr_gb);

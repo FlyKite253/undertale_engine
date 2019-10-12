@@ -1,5 +1,5 @@
 {
-    "id": "e735ad33-9d9f-48ce-8125-58dbb180cc75",
+    "id": "a3506fcf-560b-47de-a2ff-bc773da662cb",
     "modelName": "GMScript",
     "mvc": "1.0",
     "name": "MakeBoneH",

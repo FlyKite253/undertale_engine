@@ -6,7 +6,8 @@
     "children": [
         "6a8421d1-d058-4e25-8521-9175030645ec",
         "5d0ccf82-50be-4c17-8424-263e3a942532",
-        "8aea8e00-9b8e-4d3a-b911-2cede2add5d8"
+        "8aea8e00-9b8e-4d3a-b911-2cede2add5d8",
+        "61adc69a-1d04-46bb-a3f8-99d17c2d9eb8"
     ],
     "filterType": "GMObject",
     "folderName": "Soul",

@@ -7,6 +7,7 @@
 ///@arg out
 ///@arg rot
 ///@arg auto_destroy
+///@arg bottom
 ///@arg *duration
 var X = argument[0];
 var Y = argument[1];
@@ -17,12 +18,13 @@ var COLOR = argument[5];
 var OUT = argument[6];
 var ROT = argument[7];
 var DESTROY = argument[8];
+var BOTTOM = argument[9];
 var DURATION = -1;
-if(argument_count >= 10){
-	DURATION = argument[9];
+if(argument_count >= 11){
+	DURATION = argument[10];
 }
 
-var bone = instance_create_depth(X,Y,0,battle_bullet_bone)
+bone = instance_create_depth(X,Y,0,battle_bullet_bone)
 bone.length = LENGTH
 bone.hspeed = HSPEED
 bone.vspeed = VSPEED
@@ -31,6 +33,7 @@ bone.out = OUT
 bone.rotate = ROT
 bone.auto_destroy = DESTROY
 bone.angle = BONE.VERTICAL
+bone.bottom = BOTTOM
 bone.duration = DURATION
 
 return bone;
