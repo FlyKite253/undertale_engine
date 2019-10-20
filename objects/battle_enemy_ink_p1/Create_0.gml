@@ -19,3 +19,5 @@ _head_init_y = -38
 _head_x = 0
 _head_y = 0
 _head_image = 0
+
+alpha = 1

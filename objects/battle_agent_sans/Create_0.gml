@@ -46,3 +46,7 @@ body_glitch_y = random(body_height)
 legs_glitch_y = random(legs_height)
 
 glitch_image = 0
+
+alpha = 1
+
+up_and_down = 0

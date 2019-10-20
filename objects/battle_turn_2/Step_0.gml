@@ -11,10 +11,10 @@ if(start = 1){
 		alarm[0] = 1;
 		bluebone = MakeBoneH(900,306,180,0,0,BONE.BLUE,1,4,0,1);
 		with(bluebone)Anim_Create(id,"x",ANIM_TWEEN.QUAD,ANIM_EASE.OUT,x,320-x,20);
-		MakeBoneWallBottom(20,5,500);
-		MakeBoneWallTop(20,5,500);
-		MakeBoneWallLeft(20,5,500);
-		MakeBoneWallRight(20,5,500);
+		MakeBoneWallBottom(20,10,500);
+		MakeBoneWallTop(20,10,500);
+		MakeBoneWallLeft(20,10,500);
+		MakeBoneWallRight(20,10,500);
 	}
 	if(time = 600){
 		with(bluebone)hspeed = 10;

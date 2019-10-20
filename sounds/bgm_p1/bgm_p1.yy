@@ -1,5 +1,5 @@
 {
-    "id": "03d43e02-a425-4a7f-9c48-073654a22aa1",
+    "id": "bb7a61c9-4d26-45a1-9e31-72b9b563c489",
     "modelName": "GMSound",
     "mvc": "1.0",
     "name": "bgm_p1",
