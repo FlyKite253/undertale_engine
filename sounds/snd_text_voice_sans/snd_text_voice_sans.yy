@@ -1,8 +1,8 @@
 {
-    "id": "7c27ae59-5b07-4d62-92f6-f8f31cb7561b",
+    "id": "1519cb64-1c08-4773-bb31-8158e779db40",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "snd_text_voice_toriel",
+    "name": "snd_text_voice_sans",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,

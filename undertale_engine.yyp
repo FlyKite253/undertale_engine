@@ -522,7 +522,7 @@
             "Key": "1519cb64-1c08-4773-bb31-8158e779db40",
             "Value": {
                 "id": "7a462e6b-c514-4466-b76e-cf66b2f56c90",
-                "resourcePath": "sounds\\snd_text_voice_default\\snd_text_voice_default.yy",
+                "resourcePath": "sounds\\snd_text_voice_sans\\snd_text_voice_sans.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -2090,7 +2090,7 @@
             "Key": "58cb3387-d60c-47ae-81e2-dc978d54a662",
             "Value": {
                 "id": "a646dd70-6c52-4de0-8e71-578ef6d330de",
-                "resourcePath": "datafiles_yy\\locale\\english\\font\\dotumche.ttf.yy",
+                "resourcePath": "datafiles_yy\\locale\\english\\font\\comic_sans_ut.ttf.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -2308,6 +2308,14 @@
                 "id": "b36bf4ee-7c7f-4fb6-a815-012a9c0d8df2",
                 "resourcePath": "views\\6434c19c-4c80-4fb8-8890-02f98913efe8.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6489ab18-f4bc-4ddb-b686-c909b98ce8a1",
+            "Value": {
+                "id": "c99f5146-9856-4db5-891e-6627a6a02a62",
+                "resourcePath": "datafiles_yy\\locale\\english\\font\\comic_sans_ut.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -2892,14 +2900,6 @@
                 "id": "571897ff-8775-4ab5-b114-67c45ebabcb2",
                 "resourcePath": "scripts\\Player_Hurt\\Player_Hurt.yy",
                 "resourceType": "GMScript"
-            }
-        },
-        {
-            "Key": "7c27ae59-5b07-4d62-92f6-f8f31cb7561b",
-            "Value": {
-                "id": "c04866c3-e37b-4bdb-bbd1-6bc4cbb3e7c7",
-                "resourcePath": "sounds\\snd_text_voice_toriel\\snd_text_voice_toriel.yy",
-                "resourceType": "GMSound"
             }
         },
         {
@@ -3735,6 +3735,14 @@
             }
         },
         {
+            "Key": "9be6b82b-4ddd-4234-8c92-c2a6bd6aaa8d",
+            "Value": {
+                "id": "98cc4d44-f1d3-4268-ba7d-422bfac5808f",
+                "resourcePath": "datafiles_yy\\locale\\english\\font\\dotumche.ttf.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "9c0982bd-d43f-4129-9a4c-9b1300a83b06",
             "Value": {
                 "id": "04a3dd7f-19f4-4ca6-93bd-71b26ec68258",
@@ -4300,6 +4308,14 @@
                 "id": "6ecc5216-6c9a-448b-93b8-a2a16a6e701e",
                 "resourcePath": "sprites\\spr_demo_recording\\spr_demo_recording.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b39fff76-02cb-4dcf-9bb5-7949a5bc19cf",
+            "Value": {
+                "id": "bc76fa79-f0a1-4caa-bf6c-2ac8cf862101",
+                "resourcePath": "sounds\\snd_text_voice_default\\snd_text_voice_default.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -5028,14 +5044,6 @@
                 "id": "f4814604-f040-4910-8f23-efcd2b89d43f",
                 "resourcePath": "objects\\battle_damage\\battle_damage.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "cfef9897-8024-46c2-ab97-c9ed375cb1a4",
-            "Value": {
-                "id": "e0cf6cca-57f8-4b5a-b72c-0bf809bc6b83",
-                "resourcePath": "datafiles_yy\\comic-sans-ms-pixel-rus-eng.ttf.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
