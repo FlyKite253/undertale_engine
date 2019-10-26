@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "battle_enemy_ink",
     "eventList": [
-        
+        {
+            "id": "a4c73c7b-677e-46ff-9cce-ab4d5d2d21fc",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "48f3b1dc-5b7e-4ae0-b051-6994fa245718"
+        },
+        {
+            "id": "870635f4-e862-4d4c-a8f8-b1a8b1f291b0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 5,
+            "eventtype": 7,
+            "m_owner": "48f3b1dc-5b7e-4ae0-b051-6994fa245718"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

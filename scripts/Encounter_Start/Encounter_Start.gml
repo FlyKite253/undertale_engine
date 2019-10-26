@@ -22,7 +22,7 @@ if(Encounter_IsExists(ENCOUNTER)){
 		Flag_Set(FLAG_TYPE.TEMP,FLAG_TEMP.ENCOUNTER,ENCOUNTER);
 		if(!Player_IsInBattle()&&room!=room_gameover){
 			Flag_Set(FLAG_TYPE.TEMP,FLAG_TEMP.BATTLE_ROOM_RETURN,room);
-			room_persistent=true;
+			//room_persistent=true;
 		}
 		room_goto(room_battle);
 	}else{
