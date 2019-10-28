@@ -4,6 +4,24 @@ if(STATE==BATTLE_STATE.TURN_PREPARATION||STATE==BATTLE_STATE.IN_TURN){
 		x+=battle_board.x-battle_board.xprevious;
 		y+=battle_board.y-battle_board.yprevious;
 	}
+	if(restrict_inside_board){
+		if(x<battle_board._inst_frame_left.x+battle_board._inst_frame_left.sprite_width+sprite_width/2){
+			x=battle_board._inst_frame_left.x+battle_board._inst_frame_left.sprite_width+sprite_width/2;
+		}
+		if(x>battle_board._inst_frame_right.x-sprite_width/2){
+			x=battle_board._inst_frame_right.x-sprite_width/2;
+		}
+		if(y<battle_board._inst_frame_up.y+battle_board._inst_frame_up.sprite_height+sprite_height/2){
+			y=battle_board._inst_frame_up.y+battle_board._inst_frame_up.sprite_height+sprite_height/2;
+		}
+		if(y>battle_board._inst_frame_down.y-sprite_height/2){
+			y=battle_board._inst_frame_down.y-sprite_height/2;
+		}
+	}	
+	if(mouse_check_button_pressed(mb_left)){
+		x=mouse_x;
+		y=mouse_y;
+	}
 	
 	while(position_meeting(x+sprite_width/2,y,block)){
 		x-=0.01;
