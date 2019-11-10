@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "09445393-4d84-459a-b956-850079e79c7e",
+            "Value": {
+                "id": "7f1233fe-3266-4413-9a2c-1c27645fa9d5",
+                "resourcePath": "sprites\\spr_spike_box\\spr_spike_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "098e845f-ff07-4784-b648-43423fdf3142",
             "Value": {
                 "id": "f63ac4e1-238c-494e-838d-8d3e82ec7592",
@@ -467,6 +475,14 @@
             "Value": {
                 "id": "b819e956-6c49-44cf-9388-041aaa241e6e",
                 "resourcePath": "sprites\\spr_gamepad_ps4_small_l1\\spr_gamepad_ps4_small_l1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "127147b9-aa3f-43f4-91a3-1455c9beda0d",
+            "Value": {
+                "id": "f8101a5b-b07b-45f0-963d-ae5b5965c5ef",
+                "resourcePath": "sprites\\spr_star_dream\\spr_star_dream.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -911,6 +927,14 @@
             }
         },
         {
+            "Key": "233b2536-0116-4cf0-a68f-73fdc14cc92e",
+            "Value": {
+                "id": "e657053a-0455-442c-8619-926e86a3266e",
+                "resourcePath": "objects\\battle_spike_box\\battle_spike_box.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "23c828bb-d953-413e-bca2-85a590aa04dd",
             "Value": {
                 "id": "0bb803ba-359d-422a-803d-934e7533dd62",
@@ -948,6 +972,14 @@
                 "id": "d005dac4-43c7-4ba8-90ce-e2884daa17f6",
                 "resourcePath": "scripts\\Camera_Shake\\Camera_Shake.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "25fb5c85-d66e-46f6-a81e-c95ecd415695",
+            "Value": {
+                "id": "b7c316e4-008c-4a73-ade8-14e30ca0bd7e",
+                "resourcePath": "objects\\battle_spike_long\\battle_spike_long.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -1527,6 +1559,14 @@
             }
         },
         {
+            "Key": "3ff1f4b8-4656-4c1b-a9c6-e8ad1386174f",
+            "Value": {
+                "id": "26c1929f-96e6-4295-887e-3f7f429ef00e",
+                "resourcePath": "sprites\\spr_spike_long\\spr_spike_long.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "409456e8-7a49-40ab-b27c-e813cd1a5a9a",
             "Value": {
                 "id": "4195de06-5600-46d7-bcfd-27f86384f285",
@@ -1964,6 +2004,14 @@
                 "id": "999429a5-7252-4078-9612-6e7a4b5e3f1d",
                 "resourcePath": "datafiles_yy\\locale\\english\\sprite\\battle_button_mercy.ini.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "53b151f4-c1ed-463f-8913-65e9c9a7107d",
+            "Value": {
+                "id": "54594acb-fc9c-48c6-8808-91924f8c34b5",
+                "resourcePath": "views\\53b151f4-c1ed-463f-8913-65e9c9a7107d.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -3807,6 +3855,14 @@
             }
         },
         {
+            "Key": "9e4ab6a4-9408-4c00-b3c3-1e4e48a8864c",
+            "Value": {
+                "id": "75242e18-036e-4f92-8405-260d1033e18a",
+                "resourcePath": "objects\\battle_star_dream\\battle_star_dream.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9e4d168d-eba5-40df-bf2a-c869370e05f8",
             "Value": {
                 "id": "b62ce529-9f4f-46f8-ba71-c416374ba218",
@@ -4036,6 +4092,14 @@
                 "id": "e5135c0c-a3ba-4f37-9c22-1a23edc2f356",
                 "resourcePath": "sounds\\snd_spike_disable\\snd_spike_disable.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "a7f7d478-8d8e-4434-9b0d-21ee4d6213ac",
+            "Value": {
+                "id": "02d6d0ac-ce27-4178-be63-3ac644ecb352",
+                "resourcePath": "objects\\battle_stick_dream\\battle_stick_dream.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -6196,6 +6260,14 @@
                 "id": "5241ee37-e71a-431f-a8cb-ed654d70d8d0",
                 "resourcePath": "scripts\\MakeBoneBottom\\MakeBoneBottom.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "ff5f6871-2341-430c-ab70-b027d6f16a1a",
+            "Value": {
+                "id": "cd4d3ce5-0c72-4167-aad5-c8bdbf5b91b0",
+                "resourcePath": "sprites\\spr_stick_dream\\spr_stick_dream.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

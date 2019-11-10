@@ -13,7 +13,11 @@
         "bc399b83-b001-4883-ab8b-3137ffa79cd7",
         "00c521a0-0da4-4b77-bf8c-e418738cd76a",
         "8d758215-d349-42c0-9802-90bdcfbac9ea",
-        "3312c7ec-24b2-4ea6-bfa2-883121ad3386"
+        "3312c7ec-24b2-4ea6-bfa2-883121ad3386",
+        "ff5f6871-2341-430c-ab70-b027d6f16a1a",
+        "127147b9-aa3f-43f4-91a3-1455c9beda0d",
+        "09445393-4d84-459a-b956-850079e79c7e",
+        "3ff1f4b8-4656-4c1b-a9c6-e8ad1386174f"
     ],
     "filterType": "GMSprite",
     "folderName": "Bullet",

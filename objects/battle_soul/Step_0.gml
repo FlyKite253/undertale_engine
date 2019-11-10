@@ -18,10 +18,6 @@ if(STATE==BATTLE_STATE.TURN_PREPARATION||STATE==BATTLE_STATE.IN_TURN){
 			y=battle_board._inst_frame_down.y-sprite_height/2;
 		}
 	}	
-	if(mouse_check_button_pressed(mb_left)){
-		x=mouse_x;
-		y=mouse_y;
-	}
 	
 	while(position_meeting(x+sprite_width/2,y,block)){
 		x-=0.01;

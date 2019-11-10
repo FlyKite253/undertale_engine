@@ -49,5 +49,14 @@ if(start = 1){
 	}
 	if(time = 120){
 		Battle_SetSoul(battle_soul_red);
+		a = instance_create_depth(300,100,0,battle_stick_dream);
+		a.image_angle = 180;
+		instance_create_depth(340,540,0,battle_stick_dream);
+	}
+	if(time = 150){
+		alarm[0] = 1;
+	}
+	if(time = 200){
+		alarm[1] = 1;
 	}
 }
