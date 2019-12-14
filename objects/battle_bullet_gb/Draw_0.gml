@@ -40,3 +40,8 @@ var X=(x+lengthdir_x(LEN,image_angle));
 var Y=(y+lengthdir_y(LEN,image_angle));
 var XSCALE=999;
 draw_sprite_ext(SPR,1,X,Y,XSCALE,YSCALE,image_angle,color,_beam_alpha);
+
+if(sprite_index = spr_gb_cross){
+	cross_index += 0.1;
+	draw_sprite_ext(spr_glitch_gb_cross,cross_index,x,y,(scale_y*image_xscale),(scale_x*image_yscale),image_angle,color,image_alpha);
+}

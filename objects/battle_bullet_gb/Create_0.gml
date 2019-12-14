@@ -25,3 +25,5 @@ blue = noone
 orange = noone
 
 color_blend = 0
+
+cross_index = 0

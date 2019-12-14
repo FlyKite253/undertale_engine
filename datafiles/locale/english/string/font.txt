@@ -36,4 +36,4 @@
 "font.sans.1.scale.x"		"1"
 "font.sans.1.scale.y"		"1"
 "font.sans.1.space.x"		"0"
-"font.sans.space.y"		"0"
+"font.sans.space.y"		"3"

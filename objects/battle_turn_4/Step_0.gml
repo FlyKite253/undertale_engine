@@ -36,16 +36,16 @@ if(start = 1){
 		with(dream)Anim_Create(id,"alpha",0,0,1,-1,20,580);
 	}
 	if(time = 40){
-		SlamToDown(0,dream);
+		SlamToUp(40,dream);
 	}
 	if(time = 60){
-		instance_create_depth(320,320,0,battle_spike_down);
+		instance_create_depth(320,320,0,battle_spike_up);
 	}
 	if(time = 80){
-		SlamToUp(0,dream);
+		SlamToDown(0,dream);
 	}
 	if(time = 100){
-		instance_create_depth(320,320,0,battle_spike_up);
+		instance_create_depth(320,320,0,battle_spike_down);
 	}
 	if(time = 120){
 		Battle_SetSoul(battle_soul_red);
